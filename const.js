@@ -190,7 +190,7 @@ export const headerMenulist = [
   {
     id: "simulators",
     name: `${header["header-category-simulators"]}`,
-    is_enable: true,
+    is_enable: false,
   },
   {
     id: "data-infrastructure",
@@ -200,7 +200,7 @@ export const headerMenulist = [
   {
     id: "open-educational-resources",
     name: `${header["header-category-open-educational-resources"]}`,
-    is_enable: true,
+    is_enable: false,
   },
 ];
 
