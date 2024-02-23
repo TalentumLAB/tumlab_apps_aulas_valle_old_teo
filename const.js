@@ -185,7 +185,7 @@ export const headerMenulist = [
   {
     id: "digital-tools",
     name: `${header["header-category-digital-tools"]}`,
-    is_enable: false,
+    is_enable: true,
   },
   {
     id: "simulators",
@@ -258,7 +258,7 @@ export const apps = [
       {
         id: "universum",
         order: 1,
-        is_show: false,
+        is_show: true,
         thumbnail: "./assets/herramientas-digitales/universum_thumbnail.webp",
         video:
           "./assets/herramientas-digitales/videos/herramientas-digitales-universum.mp4",
@@ -269,7 +269,7 @@ export const apps = [
       {
         id: "agau",
         order: 2,
-        is_show: false,
+        is_show: true,
         thumbnail: "./assets/herramientas-digitales/agau_thumbnail.webp",
         video:
           "./assets/herramientas-digitales/videos/herramientas-digitales-agau.mp4",
@@ -290,7 +290,7 @@ export const apps = [
         video: "./assets/simuladores/videos/simulators-spanish.mov",
         title: `${sectionApps["app-simulators-spanish-title"]}`,
         description: `${sectionApps["app-simulators-spanish-description"]}`,
-        url: "http://tumlab.local:8087/viewer#phet_es_2023-01/A/index.html",
+        url: "http://tumlab.local:8087/phet_es_2022-12/A/index.html",
         ltitle: `${sectionApps["app-simulators-spanish-license-title"]}`,
         ldescription: `${sectionApps["app-simulators-spanish-license-description"]}`,
       },
@@ -304,7 +304,7 @@ export const apps = [
         description: `${sectionApps["app-simulators-english-description"]}`,
         ltitle: `${sectionApps["app-simulators-english-license-title"]}`,
         ldescription: `${sectionApps["app-simulators-english-license-description"]}`,
-        url: "http://tumlab.local:8087/viewer#phet_en_all_2023-04/A/index.html",
+        url: "http://tumlab.local:8087/phet_en_2023-01/A/index.html",
       },
     ],
   },
@@ -337,7 +337,7 @@ export const apps = [
           "./assets/recursos-educativos/videos/recursos-educativos-wikipedia.mp4",
         title: `${sectionApps["app-wikipedia-title"]}`,
         description: `${sectionApps["app-wikipedia-description"]}`,
-        url: "http://tumlab.local:8087/viewer#wikipedia_es_all_maxi_2023-10/A/Wikipedia:Offline",
+        url: "http://tumlab.local:8087/wikipedia_es_all_nopic_2022-10/A/Wikipedia:Offline",
         ltitle: `${sectionApps["app-wikipedia-license-title"]}`,
         ldescription: `${sectionApps["app-wikipedia-license-description"]}`,
       },
@@ -384,7 +384,7 @@ export const apps = [
       {
         id: "krita",
         order: 5,
-        is_show: true,
+        is_show: false,
         thumbnail: "./assets/recursos-educativos/krita_thumbnail.webp",
         video:
           "./assets/recursos-educativos/videos/recursos-educativos-krita.mp4",
