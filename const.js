@@ -183,6 +183,11 @@ export const headerMenulist = [
     is_enable: true,
   },
   {
+    id: "teo",
+    name: `${header["header-category-talentum-resources"]}`,
+    is_enable: true,
+  },
+  {
     id: "digital-tools",
     name: `${header["header-category-digital-tools"]}`,
     is_enable: true,
@@ -251,7 +256,31 @@ export const apps = [
       },
     ],
   },
-
+  {
+    category_name: `${header["header-category-teo"]}`,
+    children: [
+      {
+        id: "tumlab",
+        order: 1,
+        is_show: true,
+        thumbnail: "./assets/recursos-talentum/tumlab_thumbnail.webp",
+        video: "./assets/recursos-talentum/videos/recursos-talentum-tumlab.mp4",
+        title: `${sectionApps["app-tumlab-title"]}`,
+        description: `${sectionApps["app-tumlab-description"]}`,
+        url: "http://tumlab.local:3004",
+      },
+      {
+        id: "lms",
+        order: 2,
+        is_show: true,
+        thumbnail: "./assets/recursos-talentum/lms_thumbnail.webp",
+        video: "./assets/recursos-talentum/videos/recursos-talentum-lms.mp4",
+        title: `${sectionApps["app-lms-title"]}`,
+        description: `${sectionApps["app-lms-description"]}`,
+        url: "http://tumlab.local:5001",
+      },
+    ],
+  },
   {
     category_name: `${header["header-category-digital-tools"]}`,
     children: [
