@@ -184,7 +184,7 @@ export const headerMenulist = [
   },
   {
     id: "teo",
-    name: `${header["header-category-talentum-resources"]}`,
+    name: `${header["header-category-teo"]}`,
     is_enable: true,
   },
   {
