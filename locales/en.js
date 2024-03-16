@@ -5,6 +5,7 @@ export const en = {
 
   header: {
     "header-category-talentum-resources": "Talentum Resources",
+    "header-category-teo": "Teo",
     "header-category-digital-tools": "Digital Tools",
     "header-category-simulators": "Simulators",
     "header-category-data-infrastructure": "Data Infrastructure",
